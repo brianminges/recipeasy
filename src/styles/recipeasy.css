@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import "navbar.css";
+@import "saveRecipes.css";
+@import "searchForRecipes.css";
+@import "displayRecipe.css";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADERS ********** */
+h1 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 10em;
+    margin-left: -33%;
+    margin-top: 8%;
+    text-align: center;
+    text-shadow: 5px 5px 10px ivory;
+}
+
+h2 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 3em;
+    margin-top: 5%;
+    text-align: center;
+    text-shadow: 1px 1px 5px ivory;
+}
+
+h3 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 2.25em;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    text-align: center;
+    text-shadow: 1px 1px 5px ivory;
+}
+
+.page_topper {
+    font-size: 4em;
+    margin-top: .5em;
+}
+
+.title_start {
+    font-family: 'Cinzel', serif;
+    text-shadow: 5px 5px 10px ivory;
+}
+
+/* BUTTONS ********** */
+.main_buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.main_button {
+    border-radius: 50%;
+    box-shadow: 4px 4px 10px black;
+    font-family: 'Cinzel', serif;
+    font-size: 2em;
+    font-weight: bold;
+    height: 175px;
+    margin: 25px 50px;
+    width: 175px;
+}
+
+.main_button:hover {
+    background-color: lightgray;
+}
+ 

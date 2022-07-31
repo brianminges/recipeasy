@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.search_dropdowns {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 1.5em;
+    font-weight: bold;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+ 
+.search_dropdown_cluster {
+    display: flex;
+    flex-direction: column;
+}
+
+.search_label {
+    font-family: 'Cinzel', serif;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+.search_dropdown {
+    font-family: 'Cinzel', serif;
+    font-size: .75em;
+    margin-bottom: 1em;
+}
+ 
+.search_topper {
+    margin-bottom: .5em;
+}
+ 

@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+fieldset {
+    border: none;
+}
+
+textarea[type=text] {
+    height: 100px;
+}
+
+.recipe_inputs {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Cinzel', serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.recipe_input {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.25em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.input_field {
+    padding: 5px;
+    font-family: 'Cinzel', serif;
+}
+ 
+.categories {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 1.5em;
+    font-weight: bold;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+ 

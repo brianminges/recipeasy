@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: rgb(1, 102, 1);
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(1, 102, 1);
+}
+
+a:hover {
+    color: black
+}
+
+.navbar {
+    background-color: rgb(255, 255, 255, .5);
+    display: flex;
+    flex-wrap: wrap;
+    height: 5em;
+    justify-content: flex-end;     
+}
+
+.navbar_items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+ 
+.navbar_item {
+    align-items: center;
+    display: flex;
+    font-size: 1.25em;
+    font-weight: bold;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 20px;
+    margin-right: 100px;
+}
+
+#nav_logo {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 3em;
+    margin-left: 5%;
+    margin-right: auto;
+    text-shadow: 5px 5px 10px ivory;
+}
+

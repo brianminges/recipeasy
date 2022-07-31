@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;800&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: 1.5em;
+    margin-bottom: .25em;
+}
+
+.search_results_cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+.search_results_card {
+    background-color: rgb(255, 255, 255, .5);
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    justify-content: center;
+    margin: 20px; 
+    max-height: 425px;
+    min-width: 200px;
+    padding: 20px; 
+    width: 25%;
+}
+
+.search_results_card_overflow {
+    height: 425px;
+    overflow: scroll;
+}
+
+.search_results_card_buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
+
+.search_results_card_button {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px black;
+    height: 25px;
+    margin-top: 10px; 
+    width: 30%;
+}
+
+.center {
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.favorited {
+    border: 2px solid rgb(165, 135, 61);
+    background-color: rgb(165, 135, 61, .4)
+}
+
+#search_results_header {
+    font-family: 'Cinzel', serif;
+    margin-bottom: .5em;
+}
+
+#search_results_date {
+    font-size: 1em;
+    font-style: italic;
+    text-align: center;
+}
+

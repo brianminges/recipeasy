@@ -21,9 +21,9 @@ This is my first attempt at a working app while studying software development at
 ## Selected pages and features
 <img src="https://user-images.githubusercontent.com/91277363/182045216-f71aac49-3091-48e3-b9d0-9f9c89108e8d.png?raw=true" height="400" >
 
-<img src="https://user-images.githubusercontent.com/91277363/182045597-bce1386f-c8c0-4f1e-b7a3-e4cc7f1af59c.gif?raw=true" height="400" >
+<img src="https://user-images.githubusercontent.com/91277363/182045597-bce1386f-c8c0-4f1e-b7a3-e4cc7f1af59c.gif?raw=true" height="385" >
 
-<img src="https://user-images.githubusercontent.com/91277363/182045235-0302a81d-4f36-4ec7-80ca-d6592e2852bc.gif?raw=true" height="400" >
+<img src="https://user-images.githubusercontent.com/91277363/182045235-0302a81d-4f36-4ec7-80ca-d6592e2852bc.gif?raw=true" height="385" >
 
 ## Setup 
 1. Clone this reposity.
